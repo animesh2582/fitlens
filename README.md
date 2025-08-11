@@ -3,32 +3,7 @@
 A Streamlit web application that analyzes how well a candidate's skills and experience match job requirements for Data Engineer positions.
 
 ## 🌐 Live Demo
-**Try the app now:** [https://fitlens.streamlit.app](https://fitlens.streamlit.app) *(Link will be available after deployment)*
-
-## 🚀 Quick Start
-
-## 🌐 Web Access (Recommended)
-Simply visit the live demo link above - no installation required!
-
-## 💻 Local Development
-1. Download/clone this folder
-2. Double-click `setup_and_run.bat` (Windows) or run `setup_and_run.sh` (Mac/Linux)
-3. The app will open automatically in your browser at `http://localhost:8501`
-
-### Option 2: Manual Setup
-1. Open terminal/command prompt in this folder
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the app:
-   ```bash
-   streamlit run app2.py
-   ```
-   Or alternatively:
-   ```bash
-   py -m streamlit run app2.py
-   ```
+**Try the app now:** [https://fitlens.streamlit.app](https://fitlens.streamlit.app) *(Replace with your actual URL)*
 
 ## 🎯 How to Use
 
@@ -50,44 +25,73 @@ The app checks for these key skills:
 - Minimum 2 years of experience
 - At least 2 matching skills from the list above
 
+## 💻 Local Development
+
+To run this app locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/fitlens.git
+   cd fitlens
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the app:
+   ```bash
+   streamlit run app2.py
+   ```
+   Or alternatively:
+   ```bash
+   py -m streamlit run app2.py
+   ```
+
 ## 🛠️ Technical Details
 
 - **Framework**: Streamlit
 - **Language**: Python
 - **Dependencies**: Listed in `requirements.txt`
+- **Deployment**: Streamlit Cloud
 
 ## 📁 Project Structure
 
 ```
-FitLens/
-├── app2.py                 # Main application file
-├── requirements.txt        # Python dependencies
-├── setup_and_run.bat      # Windows setup script
-├── setup_and_run.sh       # Mac/Linux setup script
-└── README.md              # This file
+fitlens/
+├── app2.py             # Main application file
+├── requirements.txt    # Python dependencies
+└── README.md          # This file
 ```
+
+## 🚀 Features
+
+- ✅ **Instant Analysis**: Real-time skill matching
+- ✅ **Experience Validation**: Checks minimum years required
+- ✅ **User-Friendly**: Simple, clean interface
+- ✅ **Mobile Responsive**: Works on all devices
+- ✅ **No Registration**: Use immediately without signup
 
 ## 🐛 Troubleshooting
 
-### Python not found
-- Make sure Python is installed and added to your system PATH
-- Try using `py` instead of `python` command
-- Download Python from: https://python.org
+### Running Locally
+- Make sure Python 3.7+ is installed
+- Install dependencies: `pip install -r requirements.txt`
+- Try: `py -m streamlit run app2.py` if `streamlit` command fails
 
-### Streamlit not found
-- Run: `pip install streamlit`
-- Or run: `pip install -r requirements.txt`
+### Web App Issues
+- The live app should work on any modern browser
+- Try refreshing if the page doesn't load
+- Contact support if persistent issues occur
 
-### Port already in use
-- The app runs on port 8501 by default
-- If busy, Streamlit will automatically use the next available port
+## 🚀 Deployment
+
+This app is deployed on Streamlit Cloud and automatically updates when changes are pushed to this repository.
 
 ## 📞 Support
 
-If you encounter any issues:
-1. Check that Python 3.7+ is installed
-2. Ensure all requirements are installed: `pip install -r requirements.txt`
-3. Try running with: `py -m streamlit run app2.py`
+For issues or questions about this application, please create an issue in this repository.
 
 ## 📝 License
 
