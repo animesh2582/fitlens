@@ -3,7 +3,7 @@
 A Streamlit web application that analyzes how well a candidate's skills and experience match job requirements for Data Engineer positions.
 
 ## 🌐 Live Demo
-**Try the app now:** [https://fitlens.streamlit.app](https://fitlens.streamlit.app) *(Replace with your actual URL)*
+**Try the app now:** [https://fitlens.streamlit.app](https://fitlens.streamlit.app) 
 
 ## 🎯 How to Use
 
